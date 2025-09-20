@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Renaissance Racing | Official Site</title>
+  <meta name="description" content="Renaissance Racing — Ethan Adams' car & motorcycle racing program. Sponsorship tiers, media, and contact." />
+  <meta property="og:title" content="Renaissance Racing" />
+  <meta property="og:description" content="Renaissance Racing — Ethan Adams' car & motorcycle racing program." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/logo.png" />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="preload" href="assets/logo.png" as="image" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#home" class="brand">
+        <img src="assets/logo.png" alt="Renaissance Racing logo" />
+        <span>Renaissance Racing</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Open menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#sponsorship">Sponsorship</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-inner">
+      <img class="hero-logo" src="assets/logo.png" alt="Renaissance Racing logo large" />
+      <h1>Renaissance Racing</h1>
+      <p>Relentless. Data‑driven. Built for speed.</p>
+      <a href="#sponsorship" class="btn primary">View Sponsorship Tiers</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          Renaissance Racing is a competitive motorsports team founded by <strong>Ethan Adams</strong>, a lifelong racer and master technician.
+          We compete in motorcycle road racing with long‑term goals of the Isle of Man TT, while building toward professional car programs
+          in Porsche Cup, SRO GT3, and IMSA. With a dual focus on two and four wheels, we represent speed, innovation, and performance.
+        </p>
+      </div>
+    </section>
+
+    <section id="sponsorship" class="section alt">
+      <div class="container">
+        <h2>Sponsorship Tiers</h2>
+        <div class="tiers">
+          <article class="tier">
+            <h3>Bronze <span class="price">$1,000</span></h3>
+            <ul>
+              <li>Logo on website & social media</li>
+              <li>Regular social mentions</li>
+              <li>Inclusion in newsletters</li>
+              <li>Small logo on trailer/pit signage</li>
+            </ul>
+          </article>
+          <article class="tier">
+            <h3>Silver <span class="price">$3,000</span></h3>
+            <ul>
+              <li>All Bronze benefits</li>
+              <li>Medium logo on race bike or car</li>
+              <li>Dedicated social posts</li>
+              <li>Invites to selected race events (pit access)</li>
+            </ul>
+          </article>
+          <article class="tier">
+            <h3>Gold <span class="price">$5,000</span></h3>
+            <ul>
+              <li>All Silver benefits</li>
+              <li>Prominent logos on bike/car, suit & team apparel</li>
+              <li>Sponsor spotlights in media content</li>
+              <li>VIP race‑day experiences</li>
+              <li>Co‑branded merch opportunities</li>
+            </ul>
+          </article>
+          <article class="tier highlight">
+            <h3>Platinum <span class="price">$7,500</span></h3>
+            <ul>
+              <li>All Gold benefits</li>
+              <li>Maximum exposure across platforms & vehicles</li>
+              <li>Press features & hospitality</li>
+              <li>Custom activations aligned to your goals</li>
+            </ul>
+          </article>
+        </div>
+        <div class="cta-row">
+          <a href="#contact" class="btn">Partner with Us</a>
+          <a href="Renaissance_Racing_Sponsorship_Proposal_DetailedOnePage_Contact_Expanded.pdf" class="btn outline">Download One‑Pager (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="media" class="section">
+      <div class="container">
+        <h2>Media</h2>
+        <p>Photos and videos coming soon. Send us your logo and we’ll mock up placement on the bike/car.</p>
+        <div class="gallery">
+          <div class="ph">Image Placeholder</div>
+          <div class="ph">Image Placeholder</div>
+          <div class="ph">Image Placeholder</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container contact">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:Ethan.adams2002@gmail.com">Ethan.adams2002@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+19193168867">+1 (919) 316‑8867</a></p>
+        <form class="contact-form" action="mailto:Ethan.adams2002@gmail.com" method="post" enctype="text/plain">
+          <div class="row">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <textarea name="message" placeholder="Your message…" rows="5" required></textarea>
+          <button type="submit" class="btn primary">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Renaissance Racing. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
